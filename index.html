@@ -1,32 +1,26 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <title>My Site</title>
-
+  
   <style>
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-    }
-
     form {
-      font-family: Courier, monospace; 
+      font-family: Courier, monospace;
     }
   </style>
-
+  
 </head>
 
 <body style="text-align:center;">
 
-  <img src="logo-no-background.png" alt="Company Logo" width="200" height="200">
+  <img src="logo.png" width="200" height="200">
 
   <form action="https://formspree.io/f/xyyqvnvq" method="POST">
 
-    <input type="hidden" name="_subject" value="New Submission!">
-    <input type="text" name="_honey" style="display:none">  
-    <input type="hidden" name="email" value="visitor@email.com">
+    <label>Your Email:</label>
+    <input type="email" name="email">
 
-    <button type="submit">Connect</button>
+    <button type="submit">Connect</button> 
 
   </form>
 
